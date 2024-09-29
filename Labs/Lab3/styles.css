@@ -1,0 +1,51 @@
+/* Ex1 */
+/* Style the body */
+.page1 {
+    background-color: lightblue;
+}
+/* Style for the header with id "firstHeader" */
+#firstHeader {
+    color: red; /* Red color */
+    font-weight: bold; /* Bold text */
+}
+
+/* Style for paragraphs with class "greenText" */
+.greenText {
+    color: green; /* Green color */
+    font-style: italic; /* Italic text */
+}
+
+/* Ex2 */
+/* Style the body */
+.page2 {
+    background-color: red; /* Red background color */
+}
+
+/* Style the unordered list */
+ul {
+    color: green; /* Green text color */
+    font-style: italic; /* Italic text */
+}
+
+/* Style the list items */
+li {
+    display: inline; /* Make list items appear inline */
+    font-size: 30px; /* Set font size to 30px */
+}
+
+/* Ex3 */
+/* Style the body */
+.page3 {
+    background-color: white; /* White background color */
+}
+
+/* Style the paragraph element */
+p {
+    font-family: Arial, sans-serif; /* Use Arial font */
+    text-transform: uppercase; /* Make all text uppercase */
+}
+
+/* Style the image element */
+img {
+    border: 1px solid black; /* Add 1px solid black border around the image */
+}
