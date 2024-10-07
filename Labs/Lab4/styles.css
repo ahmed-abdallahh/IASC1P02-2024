@@ -1,0 +1,38 @@
+/* Apply a blue background to the entire page */
+body {
+    background-color: blue;
+    color: white; /* Make text readable against blue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling to align content */
+.container {
+    border: 2px solid black; /* Black border like in the image */
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    background-color: lightblue; /* Light blue inside */
+}
+
+/* Styling for the header */
+.header {
+    border: 1px dashed green; /* Dashed green border for header text */
+    padding: 10px;
+}
+
+/* Content area styling */
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkblue;
+}
+
+/* Image styling */
+.image {
+    width: 200px; /* Adjust based on your image size */
+    height: auto;
+    border: 2px dashed white; /* Dashed white border for image */
+}
