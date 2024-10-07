@@ -36,3 +36,57 @@ body {
     height: auto;
     border: 2px dashed white; /* Dashed white border for image */
 }
+
+/* General body styling */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container for the page */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Styling the top section with dotted purple border */
+.top-section {
+    width: 80%;
+    border: 2px dotted purple;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the middle section with colored text */
+.middle-section {
+    width: 80%;
+    text-align: left;
+    font-size: 24px;
+    color: orange;
+}
+
+.more-text {
+    font-weight: bold;
+}
+
+.colored-text {
+    color: red;
+    font-style: italic;
+}
+
+/* Styling the bottom section text */
+.bottom-section {
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
