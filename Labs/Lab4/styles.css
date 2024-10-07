@@ -90,3 +90,43 @@ body {
     font-size: 18px;
     color: green;
 }
+
+/* General body styling */
+body {
+    background-color: black; /* Dark background */
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for the green box */
+.box {
+    width: 80%;
+    background-color: green; /* Green background */
+    border: 3px dotted black; /* Black dotted border */
+    padding: 20px;
+    margin: auto;
+    color: white;
+}
+
+/* Red text inside the box */
+.box .red-text {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Light green text inside the box */
+.box .light-green-text {
+    color: lightgreen;
+    font-size: 20px;
+}
+
+/* Styling for the text below the box */
+.below-box-text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: lightblue;
+    text-align: center;
+}
