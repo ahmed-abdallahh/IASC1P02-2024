@@ -1,0 +1,66 @@
+/* Changing text color */
+.text-color {
+    color: red;
+}
+
+/* Changing font */
+.text-font {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Changing text size */
+.text-size {
+    font-size: 50px;
+}
+
+/* Transforming text case */
+.text-transform {
+    text-transform: uppercase;
+}
+
+/* Absolute positioning */
+.absolute-position {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+/* Relative positioning */
+.relative-position {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Fixed positioning */
+.fixed-position {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: pink;
+    padding: 10px;
+}
+
+/* Box model demonstration */
+.box-model {
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+/* Nested selectors */
+.box-model p {
+    color: brown;
+}
+
+/* Grouped selectors */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
