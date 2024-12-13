@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Modern Portfolio - Projects</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Portfolio Projects</h1>
+        <div id="clock"></div>
+    </div>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div class="portfolio-grid">
+            <div class="project-card" onmouseover="showProjectDetails(this, 1)" onmouseout="hideProjectDetails(this)">
+                <img src="webdev.jpg" alt="Web Development Project" />
+                <h3>Web Development</h3>
+                <div class="project-details">
+                    <p>Interactive web applications built using modern technologies.</p>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Modern JavaScript</li>
+                        <li>CSS Animations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card" onmouseover="showProjectDetails(this, 2)" onmouseout="hideProjectDetails(this)">
+                <img src="uiux.jpeg" alt="UI/UX Design Project" />
+                <h3>UI/UX Design</h3>
+                <div class="project-details">
+                    <p>User-centered design solutions for digital products.</p>
+                    <ul>
+                        <li>User Research</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card" onmouseover="showProjectDetails(this, 3)" onmouseout="hideProjectDetails(this)">
+                <img src="mobapp.jpg" alt="Mobile App Project" />
+                <h3>Mobile Development</h3>
+                <div class="project-details">
+                    <p>Cross-platform mobile applications with intuitive interfaces.</p>
+                    <ul>
+                        <li>Native Features</li>
+                        <li>Performance Optimization</li>
+                        <li>Cross-platform Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 Modern Portfolio. All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Modern Portfolio - Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Modern Portfolio</h1>
+        <div id="clock"></div>
+    </div>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <h2>Welcome to My Portfolio</h2>
+        <div id="dynamic-content">
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h3>About Me</h3>
+                    <div class="toggle-icon"></div>
+                </div>
+                <div class="section-content">
+                    <p>Hi, I’m a second-year student at Brock University, currently learning and developing my skills in web development. I enjoy building websites that are modern, responsive, and user-friendly. This portfolio is part of my journey to grow as a developer.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h3>My Skills</h3>
+                    <div class="toggle-icon"></div>
+                </div>
+                <div class="section-content">
+                    <p>I have been working with HTML, CSS, and JavaScript to create responsive layouts and interactive features. I’m also learning how to make websites accessible and follow good design practices. My goal is to keep improving with every project I work on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 Modern Portfolio. All rights reserved.</p>
+    </div>
+</body>
+</html>
