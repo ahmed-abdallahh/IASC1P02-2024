@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/nike-logo.png" alt="Nike Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="filterProducts('all')">Home</a></li>
+        <li><a href="#" onclick="filterProducts('men')">Men</a></li>
+        <li><a href="#" onclick="filterProducts('women')">Women</a></li>
+        <li><a href="#" onclick="filterProducts('kids')">Kids</a></li>
+      </ul>
+    </nav>
+    <div class="cart-icon" onclick="toggleCart()">
+      <i class="fas fa-shopping-cart"></i>
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Just Do It.</h1>
+      <p>Explore the latest collection of Nike shoes.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid" id="product-grid">
+      <!-- Products will be dynamically added here -->
+    </div>
+  </section>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-content">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </ul>
+      <p>Total: $<span id="cart-total">0</span></p>
+      <button onclick="closeCart()">Close</button>
+      <button onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Nike Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
